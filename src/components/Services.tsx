@@ -39,6 +39,19 @@ const Services = () => {
       gradient: "from-deep-purple to-ocean-blue",
     },
     {
+      name: "Windows 8.0",
+      description: "Первая версия Windows с современным плиточным интерфейсом",
+      price: "от 1700₽",
+      features: [
+        "Metro интерфейс",
+        "Windows Store",
+        "Быстрая загрузка",
+        "Сенсорная поддержка",
+      ],
+      popular: false,
+      gradient: "from-deep-purple to-ocean-blue",
+    },
+    {
       name: "Windows 7",
       description: "Классическая система, любимая многими пользователями",
       price: "от 1500₽",
@@ -50,6 +63,19 @@ const Services = () => {
       ],
       popular: false,
       gradient: "from-ocean-blue to-electric-blue",
+    },
+    {
+      name: "Windows Vista",
+      description: "Система с улучшенной безопасностью и визуальными эффектами",
+      price: "от 1200₽",
+      features: [
+        "Aero Glass",
+        "User Account Control",
+        "Windows Defender",
+        "Боковая панель",
+      ],
+      popular: false,
+      gradient: "from-electric-blue to-vibrant-purple",
     },
   ];
 
