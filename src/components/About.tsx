@@ -75,7 +75,7 @@ const About = () => {
                         className="text-white"
                       />
                     </div>
-                    <div className="text-3xl font-montserrat font-bold gradient-text mb-2">
+                    <div className="text-3xl font-montserrat font-bold gradient-text my-[1px]">
                       {stat.number}
                     </div>
                     <div className="text-gray-600 text-sm">{stat.label}</div>
